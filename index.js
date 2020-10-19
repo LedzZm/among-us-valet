@@ -11,6 +11,7 @@ for (const file of commandFiles) {
 	client.commands.set(command.name, command);
 }
 
+// TODO: Add env support (even w/o heroku)
 // TODO: Add init command
 
 client.on('message', message => {
