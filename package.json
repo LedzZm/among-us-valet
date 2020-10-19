@@ -1,0 +1,30 @@
+{
+  "name": "among-us-valet",
+  "version": "1.0.0",
+  "description": "This fine gentleman is here to assist you in your \"Among us\" Discord powered sessions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LedzZm/among-us-valet.git"
+  },
+  "keywords": [
+    "Discord",
+    "AmongUs"
+  ],
+  "author": "LedzZ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LedzZm/among-us-valet/issues"
+  },
+  "homepage": "https://github.com/LedzZm/among-us-valet#readme",
+  "dependencies": {
+    "discord.js": "^12.3.1"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
