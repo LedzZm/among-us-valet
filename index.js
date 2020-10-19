@@ -15,10 +15,6 @@ for (const file of commandFiles) {
 // TODO: Add init command
 
 client.on('message', message => {
-    // Troll Mokuba.
-    if (message.author.username === 'KaibaMokuba')
-        message.channel.send(`Trash <@${message.author.id}>`)
-
     // Do nothing if prefix was not used.
     if (!message.content.startsWith(process.env.COMMAND_PREFIX) || message.author.bot)
         return;
